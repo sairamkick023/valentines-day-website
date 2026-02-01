@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="stars"></div>
+    <div class="hearts-background"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <h1 class="logo">💕 Our Love Story 💕</h1>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="main-title">Happy Valentine's Day</h1>
+            <p class="subtitle">To the love of my life</p>
+            <div class="heart-large">❤️</div>
+            <button class="cta-button" onclick="scrollToSection('message')">Open Your Gift</button>
+        </div>
+    </section>
+
+    <!-- Messages Section -->
+    <section class="messages" id="message">
+        <div class="container">
+            <h2>For You, My Love</h2>
+            <div class="message-cards">
+                <div class="message-card">
+                    <span class="card-emoji">💝</span>
+                    <h3>My Promise</h3>
+                    <p>Every day with you is a blessing. I promise to love you more with each passing day, through all of life's adventures.</p>
+                </div>
+                <div class="message-card">
+                    <span class="card-emoji">🌹</span>
+                    <h3>Your Beauty</h3>
+                    <p>Your smile lights up my world. Your kindness inspires me. Your love completes me. You are everything to me.</p>
+                </div>
+                <div class="message-card">
+                    <span class="card-emoji">✨</span>
+                    <h3>Our Journey</h3>
+                    <p>From the moment we met, I knew you were special. Every moment with you is precious, and I'm grateful for our beautiful journey together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2>Memories of Us</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">📸</div>
+                    <p>Our First Date</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">🎂</div>
+                    <p>Your Special Days</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">✈️</div>
+                    <p>Adventures Together</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">🌅</div>
+                    <p>Sunrise Moments</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">🎭</div>
+                    <p>Fun Times</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">🏠</div>
+                    <p>Building Dreams</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons Why I Love You -->
+    <section class="reasons" id="reasons">
+        <div class="container">
+            <h2>Why I Love You</h2>
+            <button class="reason-button" onclick="generateReason()">Click for a Reason 💝</button>
+            <div class="reason-display" id="reasonDisplay">
+                <p>Click the button to reveal why I love you...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Section -->
+    <section class="interactive">
+        <div class="container">
+            <h2>Send me Your Love</h2>
+            <div class="heart-generator">
+                <p>Click anywhere on the canvas and watch hearts float up! 💕</p>
+                <canvas id="heartCanvas"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Message -->
+    <section class="final-message">
+        <div class="container">
+            <div class="love-letter">
+                <h2>I Love You More Every Day</h2>
+                <p>You make my life complete. Thank you for being my partner, my best friend, and my greatest love.</p>
+                <p>Happy Valentine's Day! 💕🌹✨</p>
+                <div class="signature">Forever Yours,<br>Your Loving Husband</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with ❤️ for the love of my life</p>
+        <p>Happy Valentine's Day 2026 💕</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
